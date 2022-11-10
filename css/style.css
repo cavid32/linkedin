@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.nav{
+    width: 100%;
+    display: flex;
+    justify-content:center;
+}
+.orta{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    width: 20%;
+}
+.logo img{
+    width: 150px;
+    margin-top: 15px;
+}
+.navbar i{
+    margin-right: 15px;
+    font-size: 30px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+.button-left{
+    border-radius: 30px;
+    width: 100px;
+    margin-right: 10px;
+    height: 40px;
+    cursor: pointer;
+    border: none;
+    background-color: white;
+}
+
+.button-right{
+    border-radius: 30px; 
+    width: 100px;
+    height: 40px;
+    cursor: pointer;
+    background-color: white;
+   border-color:#0a66c2;
+   color:#0a66c2;
+}
